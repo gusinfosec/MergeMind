@@ -1,0 +1,24 @@
+mkdir -p .github/workflows
+tee .github/workflows/pr-ai-describer.yml > /dev/null <<'YAML'
+name: PR AI Describer
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  describe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - name: Generate and comment
+        run: node src/action.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_FULL: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.number }}
+YAML
