@@ -1,21 +1,10 @@
 tee .pr-describer.yml > /dev/null <<'YML'
-# PR Copilot Extension Configuration
-
-# Style of the generated summary: casual | formal | conventional-commit
-style: conventional-commit
-
-# Target word count for the summary body
-summary_length: 100
-
-# Skip PRs with very small diffs
-min_changed_lines: 5
-
-# How to post results: comment | overwrite
-post_mode: comment
+style: conventional-commit      # casual | formal | conventional-commit
+summary_length: 100             # target words
+min_changed_lines: 5            # skip tiny PRs unless forced
+post_mode: comment              # comment | overwrite
 
 labels:
-  # PRs with any of these labels are skipped entirely
   skip: ["no-ai", "draft"]
-  # If any of these labels are present, we always run (even if "skip" matches)
   force: ["ai-describe"]
 YML

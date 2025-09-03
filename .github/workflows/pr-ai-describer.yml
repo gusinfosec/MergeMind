@@ -1,9 +1,13 @@
-mkdir -p .github/workflows
+cd ~/dev/pr-copilot-extension
 tee .github/workflows/pr-ai-describer.yml > /dev/null <<'YAML'
 name: PR AI Describer
 on:
   pull_request:
     types: [opened, edited, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: write  # needed to post a comment
 
 jobs:
   describe:
