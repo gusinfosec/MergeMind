@@ -1,3 +1,21 @@
+# MergeMind
+
+![CI](https://github.com/gusinfosec/MergeMind/actions/workflows/pr-ai-describer.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Stars](https://img.shields.io/github/stars/gusinfosec/MergeMind)](https://github.com/gusinfosec/MergeMind/stargazers)
+
+> **AI PR titles & descriptions from diffs. Zero-click. Consistent. Saves hours every sprint.**
+
+## 🚀 Quick Install
+
+1. Copy the workflow snippet from [`.github/workflows/pr-ai-describer.yml`](.github/workflows/pr-ai-describer.yml).  
+2. Add your `OPENAI_API_KEY` as a repository secret.  
+3. Open a PR — MergeMind will comment with a suggested title + summary.  
+
+👉 [Privacy policy](PRIVACY.md) · [Contributing](CONTRIBUTING.md) · [Roadmap](https://github.com/gusinfosec/MergeMind/discussions)
+
+
 # 🤖 MergeMind
 
 **AI-powered PR titles & descriptions from your diffs.**  
