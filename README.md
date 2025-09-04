@@ -13,7 +13,7 @@
 2. Add your `OPENAI_API_KEY` as a repository secret.  
 3. Open a PR — MergeMind will comment with a suggested title + summary.  
 
-👉 [Privacy policy](PRIVACY.md) · [Contributing](CONTRIBUTING.md) · [Roadmap](https://github.com/gusinfosec/MergeMind/discussions)
+👉 [Privacy policy](PRIVACY.md) · [Contributing](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
 
 # 🤖 MergeMind
