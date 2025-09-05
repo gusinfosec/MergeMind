@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/marketing/mergemind_banner_dark.png" alt="MergeMind Banner" width="100%">
+</p>
+
 # MergeMind
 
 ![CI](https://github.com/gusinfosec/MergeMind/actions/workflows/pr-ai-describer.yml/badge.svg)
