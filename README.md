@@ -181,10 +181,29 @@ Create labels once (optional, but recommended):
 
 ## 📈 Roadmap
 
-- GitHub Marketplace listing (free + paid tiers)  
-- License key gate + lightweight verifier (Stripe)  
-- Repo policy presets & team analytics  
-- Multi-language summaries & commit message support
+Near-Term (0–3 months)
+
+Launch GitHub Marketplace listing (free + paid tiers)
+
+Add license key gate + lightweight Stripe verifier
+
+Initial repo policy presets for small teams
+
+Mid-Term (3–6 months)
+
+Expand repo policy presets for enterprise use cases
+
+Introduce team analytics dashboard (usage + adoption metrics)
+
+Multi-language support for PR summaries & commit messages
+
+Long-Term (6–12 months)
+
+AI-assisted code review rules tailored to compliance frameworks (SOX, ISO, HIPAA, PCI)
+
+Advanced Stripe integration (subscription upgrades, usage-based billing)
+
+Marketplace integrations (Atlassian, GitLab, Azure DevOps)
 
 ---
 
